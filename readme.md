@@ -17,7 +17,6 @@ its been tested on a Pi Zero, Raspbian and Sparkfun HTU21 Sensor
 * `cd zerosensor && python HTU21DF.py install`
 
 **Run zerosensor**
-* `cd $home/zerosensor`
 * `python zerosensor-basic.py &` (basicly logs to data file with format `temp,sensor,unixtime`
 * `python zerosensor-db.py &` (logs to mongodb)
 
