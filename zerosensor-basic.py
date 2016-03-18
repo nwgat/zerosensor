@@ -19,14 +19,14 @@ while True:
 	#ans_time = time.mktime(dtime.timetuple())
 
 	# keeping time (standard)
-	td = datetime.datetime.utcnow()
+	#td = datetime.datetime.utcnow()
 
 	# display
 	#print "%.2f,%.2F" % (temp, hum,) ,ans_time
-	print "%0.2f,%0.2F," % (temp, hum), td
-	#print "%.2f,%.2F" % (temp, hum,)
+	#print "%0.2f,%0.2F," % (temp, hum), td
+	print "%.2f,%.2F" % (temp, hum)
 
-	# sleep
+	# time delay for reading
 	#time.sleep(60)
 	time.sleep(1)
 

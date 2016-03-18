@@ -31,4 +31,7 @@ while True:
 	       "Humidity": hum}
 	data.insert(doc)
 	conn.close()
-	time.sleep(60)
+
+	# time delay for reading
+	#time.sleep(60)
+	time.sleep(1)
