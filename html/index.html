@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="zingchart.min.js"></script>
+  <script>
+    zingchart.MODULESDIR = "/modules/";
+    ZC.LICENSE = ["569d52cefae586f634c54f86dc99e6a9", "ee6b7db5b51705a13dc2339db3edaf6d"];
+  </script>
+  <style>
+    html,
+    body,
+    #myChart {
+      height: 98%;
+      width: 98%;
+    }
+  </style>
+</head>
+
+<body>
+  <div id='myChart'></div>
+  <script>
+    var myConfig = {
+      "type": "line",
+      "plotarea": {
+      "aspect":"spline"
+      },
+      "csv": {
+        "url": "/home/pi/zerosensor/data"
+      }
+    };
+
+    zingchart.render({
+      id: 'myChart', 
+      appendseriesvalues:'true',
+      data: myConfig,
+      height: "98%",
+      width: "98%"
+    });
+  </script>
+</body>
+
+</html>
