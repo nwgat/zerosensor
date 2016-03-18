@@ -13,6 +13,7 @@ its been tested on a Pi Zero, Raspbian and Sparkfun HTU21 Sensor
 * Delay (1 sec)
  
 **Defaults**
+
 logging to file
 * no date/time
 * delay 1
