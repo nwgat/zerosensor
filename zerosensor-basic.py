@@ -8,7 +8,7 @@ import HTU21DF
 
 while True:
 	# output to file
-	sys.stdout = open('data', 'a')
+	sys.stdout = open('html/data', 'a')
 
 	temp = HTU21DF.read_temperature()
 	time.sleep(1)
