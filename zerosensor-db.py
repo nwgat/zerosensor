@@ -20,10 +20,13 @@ while True:
 	temp = HTU21DF.read_temperature()
 	hum = HTU21DF.read_humidity()
 	
-#	print "Temperature: %F C, Humidity: %f" % (temp, hum)
+	# keeping time (unix time)
+        dtime = datetime.datetime.now()
+        ans_time = time.mktime(dtime.timetuple())
 	
 	# Write to DB
-	doc = {"date": datetime.datetime.utcnow(),
+	#doc = {"date": datetime.datetime.utcnow(), # standard time
+	doc = {"date": ans_time, # unix time	
 	       "Temperature": temp,
 	       "Humidity": hum}
 	data.insert(doc)
