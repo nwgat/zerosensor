@@ -21,4 +21,8 @@ its been tested on a Pi Zero, Raspbian and Sparkfun HTU21 Sensor
 * `git clone https://github.com/nwgat/zerosensor``
 * `python zerosensor-basic.py` (basicly logs to data file with format `temp,sensor,unixtime`
 * `python zerosensor-db.py` (logs to mongodb`
-* `python zerosensor-serve-py` (logs to file, http server with zingchart)
+
+
+**start a web server**
+* `cd html`
+* `python -m SimpleHTTPServer 80`

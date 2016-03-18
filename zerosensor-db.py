@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# zerosensor
+# http://nwgat.ninja
+
 import HTU21DF
 import time
 import traceback
