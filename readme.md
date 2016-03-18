@@ -14,12 +14,12 @@ its been tested on a Pi Zero, Raspbian and Sparkfun HTU21 Sensor
 * `git clone https://github.com/nwgat/zerosensor``
 * `git clone https://github.com/dalexgray/RaspberryPI_HTU21DF`
 * `cp RaspberryPI_HTU21DF/HTU21DF.py zerosensor/`
-* `cd zerosensor python HTU21DF.py install`
+* `cd zerosensor && python HTU21DF.py install`
 
 **Run zerosensor**
 * `cd $home/zerosensor`
 * `python zerosensor-basic.py &` (basicly logs to data file with format `temp,sensor,unixtime`
-* `python zerosensor-db.py &` (logs to mongodb`
+* `python zerosensor-db.py &` (logs to mongodb)
 
 
 **Start a web server**
