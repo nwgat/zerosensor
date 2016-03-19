@@ -2,7 +2,7 @@
 # http://nwgat.ninja
 
 # simple httpd server that serves files in folder
-# http://stackoverflow.com/questions/8234266/is-it-possible-to-have-simplehttpserver-serve-files-from-two-different-directori/8675236#8675236
+# http://stackoverflow.com/questions/8234266/8675236#8675236
 
 import SimpleHTTPServer
 import SocketServer
