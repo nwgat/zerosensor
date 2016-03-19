@@ -25,8 +25,8 @@ while True:
         ans_time = time.mktime(dtime.timetuple())
 	
 	# Write to DB
-	#doc = {"date": datetime.datetime.utcnow(), # standard time
-	doc = {"date": ans_time, # unix time	
+	doc = {"Date": datetime.datetime.utcnow(),
+	       "Timestamp": ans_time,
 	       "Temperature": temp,
 	       "Humidity": hum}
 	data.insert(doc)
