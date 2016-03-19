@@ -20,23 +20,20 @@
 <body>
   <div id='myChart'></div>
   <script>
-    var myConfig = {
-      "type": "line",
-      "plotarea": {
-      "aspect":"spline"
-      },
-      "csv": {
-        "url": "data"
-      }
-    };
+var myConfig = {
+    "type":"line",
+    "aspect":"spline", 
+    "csv":{
+        "url": "data",
+    }
+};
 
-    zingchart.render({
-      id: 'myChart', 
-      appendseriesvalues:'true',
-      data: myConfig,
-      height: "98%",
-      width: "98%"
-    });
+zingchart.render({ 
+	id : 'myChart', 
+	data : myConfig, 
+	height: "100%", 
+	width: "100%"
+});
   </script>
 </body>
 
