@@ -25,13 +25,13 @@ while True:
         ut = local.timestamp
 
 	# format in unix time
-	print "%.2f,%.2F,"% (temp, hum,), ut 
+	#print "%.2f,%.2F,"% (temp, hum,), ut 
 
 	# format in standard time
 	#print "%0.2f, %0.2F,"% (temp, hum),st
 
 	# display as temp,humidity only
-	#print "%.2f, %.2F"%(temp, hum)
+	print "%.2f, %.2F"%(temp, hum)
 
 	# time delay for reading from sensors
 	#time.sleep(60)
